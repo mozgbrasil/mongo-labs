@@ -1,4 +1,4 @@
-[checkmark]: https://raw.githubusercontent.com/mozgbrasil/mozgbrasil.github.io/master/assets/images/logos/logo_32_32.png 'MOZG'
+[checkmark]: https://raw.githubusercontent.com/mozgbrasil/mozgbrasil.github.io/master/assets/images/logos/logo_32_32.png "MOZG"
 
 ![valid XHTML][checkmark]
 
@@ -10,9 +10,9 @@ Caso queira contribuir para melhoria da documentação de um Fork no repositóri
 
 ## Requerimentos
 
--   https://www.docker.com/
--   https://code.visualstudio.com/
--   https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack
+- https://www.docker.com/
+- https://code.visualstudio.com/
+- https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack
 
 ## Executando local
 
@@ -25,7 +25,6 @@ code --new-window .
 ```
 
 ## -
-
 
 ### mongodb - local
 
@@ -120,7 +119,7 @@ use microsoft_typescript_node
 db.getName()
 show collections
 
-db.createCollection('hello-world');
+db.createCollection('helloworlds');
 
 var file = cat('./views/tests/findup/scope/users.json')
 var o = JSON.parse(file)

@@ -1,0 +1,14 @@
+{
+  "name": "mongo-labs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mozgbrasil/mongo-labs",
+  "author": "mozgbrasil <mozgbrasil@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy:gh-pages": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
