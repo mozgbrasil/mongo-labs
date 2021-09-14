@@ -130,12 +130,12 @@ show collections
 👇️
 
 function printSchema(obj, indent) {
-    for (var key in obj) {
-        print(indent, key, typeof obj[key]) ;
-        if (typeof obj[key] == "object") {
-            printSchema(obj[key], indent + "\t")
-        }
+  for (var key in obj) {
+    print(indent, key, typeof obj[key]) ;
+    if (typeof obj[key] == "object") {
+      printSchema(obj[key], indent + "\t")
     }
+  }
 };
 
 var schemaObj = db.patients.findOne();
@@ -152,6 +152,13 @@ use findup
 db.getName()
 db.dropDatabase()
 show databases
+
+👇️
+ 
+
+
+👇️
+
 
 👇️
 
