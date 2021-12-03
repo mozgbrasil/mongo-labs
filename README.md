@@ -2,7 +2,7 @@
 
 ![valid XHTML][checkmark]
 
-# mongo-labs
+# mongo-labs 👉️
 
 ## Contribuição
 
